@@ -1,3 +1,5 @@
 djangorestframework
 django
 psycopg2
+phonenumbers
+django-phonenumber-field
