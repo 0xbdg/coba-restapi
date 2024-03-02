@@ -5,5 +5,5 @@ class Users(models.Model):
     id = models.AutoField(primary_key=True)
     username = models.CharField(max_length=255)
     age = models.IntegerField()
-    phonenum = PhoneNumberField(blank=True)
+    phonenumber = PhoneNumberField(blank=True)
     email=models.EmailField()
